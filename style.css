@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:"Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* header Bar */
+header{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(4, 29, 29);
+    display: flex;
+    justify-content: space-around;
+    padding-right: 100px;
+}
+.logo{
+    color: rgb(44, 122, 122);
+    position: relative;
+    top: 30px;
+    left: 200px;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo a:hover{
+    color: rgb(44, 122, 122);
+    font-weight: normal;
+}
+header h3{
+    color: rgb(44, 122, 122);
+    position: relative;
+    top: 70px;
+    left: 440px;
+}
+/* nav bar */
+nav ul li{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: rgb(44, 122, 122);
+}
+.secondary_continar{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(4, 29, 29);
+    text-align: center;
+    color: white;
+}
+.secondary_continar h2{
+    font-weight: normal;
+    padding: 10px 0px;
+    color: rgb(23, 96, 96);
+}
+.secondary_continar h3{
+    font-weight: normal;
+    padding: 10px 0px;
+}
+.secondary_continar a{
+    height: 40px;
+    width: 150px;
+    background-color: none;
+    border: 2px solid white;
+    padding: 20px 40px;
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+    color: white;
+    border-radius: 5px;
+}
+.thard_continar{
+    height: 500px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 100px;
+}
+h5{
+    font-size: 20px;
+    color: rgb(175, 176, 176);
+}
+a{
+    color: rgb(175, 176, 176);
+    text-decoration: none;
+}
+p{
+    color:rgb(175, 176, 176);
+    padding: 10px 0px;
+}
+img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px 10px;
+
+}
+/* footer bar */
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(4, 29, 29);
+}
+footer small{
+    color: rgb(44, 122, 122);
+    font-size: 15px;
+    position: relative;
+    top: 110px;
+    left: 200px;
+}
+footer nav ul li{
+    position: relative;
+    left: 600px;
+}
